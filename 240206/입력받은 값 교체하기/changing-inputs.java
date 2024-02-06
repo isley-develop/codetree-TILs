@@ -6,14 +6,14 @@ public class Main {
         
         // 변수 선언
         int a, b;
-        int temp;
+        int temp = 0;
 
         // 입력
         a = sc.nextInt();
         b = sc.nextInt();
 
         // 위치 교환
-        temp a;
+        temp = a;
         a = b;
         b = temp;
 
