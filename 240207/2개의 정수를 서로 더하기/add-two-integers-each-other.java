@@ -8,14 +8,11 @@ public class Main {
         int a = sc.nextInt();
         int b = sc.nextInt();
 
-        // b를 a에 더하기
+        // 연산
         a += b;
-        // 출력
-        System.out.print(a);
-
-        // a를 b에 더하기
         b += a;
+
         // 출력
-        System.out.println(" " + b);
+        System.out.println(a + " " + b);
     }
 }
