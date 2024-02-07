@@ -10,5 +10,8 @@ public class Main {
             System.out.println(n);
             System.out.println("minus");
         }
+        else if (n > 0) {
+            System.out.println(n);
+        }
     }
 }
