@@ -4,16 +4,10 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // 키
-        int h_cm = sc.nextInt();
-        double h_m;
-        h_m = h_cm / 100.0;
+		    int h = sc.nextInt();
+		    int w = sc.nextInt();
 
-        // 몸무게
-        int w = sc.nextInt(); 
-
-        double bmi;
-        bmi = w / (h_m * h_m);
+		    int bmi = w*10000 / (h * h);
 
         if (bmi >= 25) {
             System.out.println((int)bmi);
