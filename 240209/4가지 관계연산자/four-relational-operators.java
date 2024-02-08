@@ -26,6 +26,9 @@ public class Main {
         if (b >= a) {
             System.out.println(1);
         }
+        else {
+            System.out.println("0");
+        }
 
         //b가 a보다 큰가?
         if (b > a) {
