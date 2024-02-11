@@ -4,16 +4,10 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
+        // 변수 선언, 입력
         int score = sc.nextInt();
-        int level;
 
-        if (score >= 100) {
-            level = 0;
-            System.out.println("pass");
-        }
-        else {
-            level = 1;
-            System.out.println("failure");
-        }
+        // 출력
+        System.out.println(score == 100 ? "pass" : "failure");
     }
 }
