@@ -7,12 +7,7 @@ public class Main {
         int a = sc.nextInt();
         int b = sc.nextInt();
 
-        if ( a >= b ) {
-            System.out.println(a);
-        }
-        else {
-            System.out.println(b);
-        }
-
+        int max = a > b ? a : b;
+        System.out.println(max);
     }
 }
