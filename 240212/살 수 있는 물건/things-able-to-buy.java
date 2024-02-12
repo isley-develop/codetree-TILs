@@ -8,10 +8,10 @@ public class Main {
         int n = sc.nextInt(); // 가진 돈
 
         // 출력
-        if (n == 3000) {
+        if (n >= 3000) {
             System.out.println("book");
         }
-        else if (n == 1000) {
+        else if (n >= 1000) {
             System.out.println("mask");
         }
         else {
