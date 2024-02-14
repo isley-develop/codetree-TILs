@@ -18,7 +18,7 @@ public class Main {
 
         System.out.print(" ");
 
-        if (a == b && a == c) {
+        if (a == b && b == c) {
             System.out.print("1");
         }
         else {System.out.print("0");}
