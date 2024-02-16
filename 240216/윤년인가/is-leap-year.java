@@ -16,8 +16,5 @@ public class Main {
                 System.out.println("false");
             }
         }
-        else {
-            System.out.println("false");
-        }
     }
 }
