@@ -13,22 +13,10 @@ public class Main {
             if (i % 3 == 0) {
                 System.out.print("0 ");
             }
-            else if (i % 10 == 3) {
+            else if (i % 10 == 3 || i % 10 == 6 || i % 10 == 9) {
                 System.out.print("0 ");
             }
-            else if (i % 10 == 6) {
-                System.out.print("0 ");
-            }
-            else if (i % 10 == 9) {
-                System.out.print("0 ");
-            }
-            else if (i / 30 == 1 && i <= 39) {
-                System.out.print("0 ");
-            }
-            else if (i / 60 == 1 && i <= 69) {
-                System.out.print("0 ");
-            }
-            else if (i / 90 == 1 && i <= 99) {
+            else if (i / 10 == 3 || i / 10 == 6 || i / 10 == 9) {
                 System.out.print("0 ");
             }
             else {
