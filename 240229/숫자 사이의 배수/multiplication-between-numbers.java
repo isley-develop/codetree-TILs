@@ -7,21 +7,21 @@ public class Main {
         // 변수 선언, 입력
         int a = sc.nextInt();
         int b = sc.nextInt();
-        int count = 0;
-        int sumVal = 0;
-        double avgVal = 0;
 
-        // a부터 b까지의 합 구하기
+        int sum = 0, count = 0;
+        double avg = 0;
+
+        // a부터 b까지의 수 중 5 또는 7의 배수들의 합
         for (int i = a; i <= b; i++) {
             if (i % 5 == 0 || i % 7 == 0) {
-                sumVal += i;
-                avgVal += i;
+                sum += i;
+                avg += i;
                 count ++;
             }
         }
         
-        // 출력
-        System.out.print(sumVal + " ");
-        System.out.printf("%.1f", avgVal / count);
+        // 합과 평균 출력
+        System.out.print(sum + " ");
+        System.out.printf("%.1f", avg / count);
     }
 }
