@@ -5,11 +5,12 @@ public class Main {
         Scanner sc = new Scanner(System.in);
 
         // 변수 선언, 입력
-        int n = 0;
+        int n = sc.nextInt();;
+        int cnt = n;
         int sumVal = 0;
 
         // 홀수이면서 3의 배수인 수들의 합 구하기
-        for (int i = 1; i <= 6; i++) {
+        for (int i = 1; i <= cnt; i++) {
             n = sc.nextInt();
 
             if (n % 2 == 1 && n % 3 == 0) {
