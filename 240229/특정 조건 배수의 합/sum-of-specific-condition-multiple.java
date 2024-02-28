@@ -16,6 +16,11 @@ public class Main {
                 sum += i;
             }
         }
+        for (int i = b; i <= a; i++) {
+            if (i % 5 == 0) {
+                sum += i;
+            }
+        }       
         
         // 합 출력
         System.out.print(sum);
