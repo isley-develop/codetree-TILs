@@ -23,8 +23,6 @@ public class Main {
         avg = (double)sum / cnt;
 
         // 출력
-        System.out.printf("%d", sum);
-        System.out.print(" ");
-        System.out.printf("%.1f", avg);
+        System.out.printf("%d %.1f", sum, avg);
     }
 }
