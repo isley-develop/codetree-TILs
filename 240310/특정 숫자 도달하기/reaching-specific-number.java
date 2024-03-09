@@ -20,7 +20,7 @@ public class Main {
         // 평균 구하기
         avg = (double)sum / 5; 
 
-        // 입력받은 문자의 순서를 거꾸로 출력하기
+        // 합과 평균 출력하기
         System.out.printf("%d %.1f", sum, avg);
     }
 }
