@@ -5,9 +5,11 @@ public class Main {
 
         // 학생 8명의 점수를 입력받을 배열
         double[] arr = new double[8];
+
+        // 변수 선언
         double sum = 0;
 
-        // 점수 입력받기
+        // 점수 입력받기, 점수 합 구하기
         for (int i = 0; i < 8; i++) {
             arr[i] = sc.nextDouble();
             sum += arr[i];
