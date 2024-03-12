@@ -12,7 +12,7 @@ public class Main {
         // 배열에 정수 입력받기, 입력받은 정수의 합 구하기
         for (int i = 0; i < 10; i++) {
             arr[i] = sc.nextInt();
-            if (arr[i] % 2 == 0) {
+            if (arr[i] % 2 == 0 && arr[i] != 0) {
                 sum += arr[i];
                 cnt ++;
             }
@@ -21,6 +21,6 @@ public class Main {
         }
 
         // 개수와 합
-        System.out.print((cnt - 1) + " " + sum);
+        System.out.print((cnt) + " " + sum);
     }
 }
