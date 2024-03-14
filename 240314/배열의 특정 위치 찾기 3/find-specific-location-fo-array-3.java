@@ -12,7 +12,6 @@ public class Main {
         for(int i = 0; i < 100; i++) {
             arr[i] = sc.nextInt();
 
-            //
             if (arr[i] == 0)
                 break;
             cnt ++;
