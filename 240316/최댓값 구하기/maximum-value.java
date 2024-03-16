@@ -9,7 +9,7 @@ public class Main {
         int c = sc.nextInt();
 
         // 조건에 맞는 결과 출력
-        if (a >= b && a > c) {
+        if (a > b && b > c) {
             System.out.print(a);
         }
         else if (b > a && a > c) {
