@@ -7,7 +7,7 @@ public class Main {
         int n;
 
         // 번호에 해당하는 값 출력
-        for (int i = 0; i <= 100; i++) {
+        while (true) {
             // 출석번호 입력받기
             n = sc.nextInt();
             if (n == 1) {
