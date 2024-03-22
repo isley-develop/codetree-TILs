@@ -14,17 +14,11 @@ public class Main {
             height = sc.nextInt();
             c = sc.next().charAt(0);
 
-            if (c != 'C') {
-                area = (width * height);
-                System.out.println(area);
-                continue;
-            }         
-    
-            else {
-                area = (width * height);
-                System.out.println(area);
-                break;
-            }
+            int area = (width * height);
+            System.out.println(area);
+
+            if (c == 'C') 
+                break;      
         }
     }
 }
