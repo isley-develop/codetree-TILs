@@ -9,15 +9,17 @@ public class Main {
         int b = sc.nextInt();
         int c = sc.nextInt();
 
-        // boolean type 변수의 초기값으로는 false를 둔다
+        // boolean type 변수 선언
         boolean Yes = false;
+        
+        // 조건문
         for (int i = a; i <= b; i++) {
             if (i % c == 0) {
                 Yes = true;
             }
         }
 
-        // 조건을 만족하는 경우
+        // 조건 만족 시 YES 또는 NO 출력
         if (Yes == true) {
             System.out.println("YES");
         }
