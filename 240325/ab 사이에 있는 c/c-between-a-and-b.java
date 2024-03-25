@@ -12,7 +12,7 @@ public class Main {
         // boolean type 변수의 초기값으로는 false를 둔다
         boolean Yes = false;
         for (int i = a; i <= b; i++) {
-            if (i % a == 0 || i % b == 0) {
+            if (i % c == 0) {
                 Yes = true;
             }
         }
