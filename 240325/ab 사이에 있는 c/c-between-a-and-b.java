@@ -19,7 +19,7 @@ public class Main {
             }
         }
 
-        // 조건 만족 시 YES 또는 NO 출력
+        // 조건 만족 시 YES 출력
         if (Yes == true) {
             System.out.println("YES");
         }
