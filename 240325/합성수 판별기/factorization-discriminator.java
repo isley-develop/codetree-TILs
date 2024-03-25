@@ -17,7 +17,7 @@ public class Main {
             }
         }
 
-        // 조건 만족 시 YES 또는 NO 출력
+        // 조건 만족 시 C 출력
         if (satisfied == true) {
             System.out.println("C");
         }
