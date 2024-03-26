@@ -6,13 +6,13 @@ public class Main {
 
         // 변수 선언, 입력
         int n = sc.nextInt();
-        boolean satisfied = true;
+        boolean satisfied = false;
 
         // 조건
         for (int i = 1; i <= n; i++) {
-            if (i % 1 != 0) {
-                if (i % n != 0) 
-                    satisfied = false;
+            if (i % 1 == 0) {
+                if (i % n == 0) 
+                    satisfied = true;
             }
         }
 
