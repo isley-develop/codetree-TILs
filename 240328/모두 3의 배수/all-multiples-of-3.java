@@ -6,19 +6,19 @@ public class Main {
         
         // 변수 선언 및 입력
         int n;
-        int cnt = 0;
+        boolean satisfied = true;
 
         // 조건
         for(int i = 1; i <= 5; i++) {
             n = sc.nextInt();
             
-            if(n % 3 == 0) {
-                cnt++;
+            if(n % 3 != 0) {
+                satisfied = false;
             }
         }
         
         //출력
-        if(cnt == 5)
+        if(satisfied == true)
             System.out.println(1);
         else
             System.out.println(0);
