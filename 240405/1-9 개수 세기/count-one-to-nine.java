@@ -6,7 +6,7 @@ public class Main {
 
         // 변수 선언, 입력
         int n = sc.nextInt();
-        int[] arr = new int[10];
+        int[] arr = new int[n];
         int[] countArr = new int[10];
 
         for (int i = 0; i < n; i++) {
